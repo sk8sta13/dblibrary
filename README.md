@@ -17,7 +17,7 @@ Faуa a configuraусo inicial:
 
 Adicione seus proprios targets para serem gerenciados:
 ```
-./sqitch target add banco1 db:mysql://user:pass@host/table --registry banco1
+./sqitch target add banco1 db:mysql://user:pass@host/banco1 --registry banco1
 ```
 *Nesse caso estou add os registros do sqitch na mesma base de dados do projeto.*
 

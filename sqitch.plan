@@ -1,0 +1,6 @@
+%syntax-version=1.0.0
+%project=dblibrary
+%uri=https://github.com/sk8sta13/dblibrary.git
+
+create_table_users 2022-03-14T16:46:16Z Marcelo Campos <sk8sta13@gmail.com> # Create table users
+create_table_password_resets 2022-03-14T16:47:15Z Marcelo Campos <sk8sta13@gmail.com> # Create table password resets
