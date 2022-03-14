@@ -4,3 +4,7 @@
 
 create_table_users 2022-03-14T16:46:16Z Marcelo Campos <sk8sta13@gmail.com> # Create table users
 create_table_password_resets 2022-03-14T16:47:15Z Marcelo Campos <sk8sta13@gmail.com> # Create table password resets
+create_table_publishing_companies 2022-03-14T17:40:47Z Soto <soto.campos.marcelo@gmail.com> # Create table publishing_companies
+create_table_books [create_table_publishing_companies] 2022-03-14T17:42:05Z Soto <soto.campos.marcelo@gmail.com> # Create table books
+create_table_genus 2022-03-14T17:44:10Z Soto <soto.campos.marcelo@gmail.com> # Create table genus
+create_table_book_gender [create_table_books create_table_genus] 2022-03-14T17:45:07Z Soto <soto.campos.marcelo@gmail.com> # Create table genus
